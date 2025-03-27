@@ -382,30 +382,36 @@ const tagType = data.fsTagType;
 if (tagType === 'fsEventTracking') {
   const eventName = makeString(data.fsEventName);
   if (!eventName) {
+    data.gtmOnFailure();
     return;
   }
   const eventProperties = getType(data.fsEventPropValue) === 'array' ? makeTableMap(data.fsEventPropValue, 'fsEventPropertyKey', 'fsEventPropertyValue') : {};
   FS('trackEvent', { name: eventName, properties: eventProperties });
   logToConsole('FullStory Event Tracked:', { name: eventName, properties: eventProperties });
+  data.gtmOnSuccess();
 } else if (tagType === 'fsIdentify') {
   const userId = makeString(data.fsUserIdSource);
   if (!userId) {
+    data.gtmOnFailure();
     return;
   }
   const userProperties = getType(data.fsUserIdCustomizer) === 'array' ? makeTableMap(data.fsUserIdCustomizer, 'fsIdentifierType', 'fsUserMetaDataValue') : {};
   FS('setIdentity', { uid: userId, properties: userProperties });
   logToConsole('FullStory User Identified:', { uid: userId, properties: userProperties });
+  data.gtmOnSuccess();
 } else if (tagType === 'fsSetPageProperties') {
   const pageProperties = getType(data.fsPagePropertyValue) === 'array' ? makeTableMap(data.fsPagePropertyValue, 'fsPagePropKey', 'fsPagePropValue') : {};
   FS('setProperties', { type: 'page', properties: pageProperties });
   logToConsole('FullStory Page Properties Set:', { type: 'page', properties: pageProperties });
+  data.gtmOnSuccess();
 } else if (tagType === 'fsSetUserProperties') {
   const userProperties = getType(data.fsUserPropertyValue) === 'array' ? makeTableMap(data.fsUserPropertyValue, 'fsSetUserPropKey', 'fsSetUserPropValue') : {};
   FS('setProperties', { type: 'user', properties: userProperties });
   logToConsole('FullStory User Properties Set:', { type: 'user', properties: userProperties });
+  data.gtmOnSuccess();
+} else {
+  data.gtmOnFailure();
 }
-
-data.gtmOnSuccess();
 
 
 ___WEB_PERMISSIONS___
