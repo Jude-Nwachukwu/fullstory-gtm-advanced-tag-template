@@ -2,5 +2,10 @@
 homepage: https://dumbdata.co/
 documentation: https://github.com/Jude-Nwachukwu/fullstory-gtm-advanced-tag-template
 versions:
+# LATEST VERSION
+  - sha: 70772841e1f924a06f39ef2e5aa993f8af8be8f3
+    changeNotes: Updated the code to ensure that either gtmOnSuccess or gtmOnFailure are always called for all code paths.
+
+#INITIAL VERSION
   - sha: 8d7c164d953c52b7b106083fe0524b4f126644a4
     changeNotes: Initial release.
