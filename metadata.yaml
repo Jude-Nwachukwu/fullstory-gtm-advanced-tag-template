@@ -3,9 +3,12 @@ homepage: https://dumbdata.co/
 documentation: https://github.com/Jude-Nwachukwu/fullstory-gtm-advanced-tag-template
 versions:
 # LATEST VERSION
-  - sha: 70772841e1f924a06f39ef2e5aa993f8af8be8f3
-    changeNotes: Updated the code to ensure that either gtmOnSuccess or gtmOnFailure are always called for all code paths.
+  - sha: ea657267be155c6a957a9b248cfbf819eb3bb5f1
+    changeNotes: Updated the tag template to include the option to disable console logging on each execution (Identify, user properties, event, page properties.
 
 #INITIAL VERSION
+  - sha: 70772841e1f924a06f39ef2e5aa993f8af8be8f3
+    changeNotes: Updated the code to ensure that either gtmOnSuccess or gtmOnFailure are always called for all code paths.
+    
   - sha: 8d7c164d953c52b7b106083fe0524b4f126644a4
     changeNotes: Initial release.
