@@ -10,19 +10,19 @@ ___INFO___
 
 {
   "type": "TAG",
-  "id": "cvt_temp_public_id",
+  "id": "cvt_MBN5H",
   "version": 1,
-  "securityGroups": [],
   "displayName": "Fullstory Advanced Unofficial",
   "brand": {
-    "id": "brand_dummy",
-    "displayName": "DumbData",
+    "id": "github.com_Jude-Nwachukwu",
+    "displayName": "Jude-Nwachukwu",
     "thumbnail": "data:image/png;base64,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"
   },
   "description": "This tag is used to implement Fullstory event tracking, user identification, set user property and set page properties.",
   "containerContexts": [
     "WEB"
-  ]
+  ],
+  "securityGroups": []
 }
 
 
@@ -299,7 +299,7 @@ ___TEMPLATE_PARAMETERS___
   },
   {
     "type": "GROUP",
-    "name": "group1",
+    "name": "fsDocumentationLinks",
     "displayName": "➡️ Link To Fullstory Documentation",
     "groupStyle": "NO_ZIPPY",
     "subParams": [
@@ -364,6 +364,21 @@ ___TEMPLATE_PARAMETERS___
         ]
       }
     ]
+  },
+  {
+    "type": "GROUP",
+    "name": "fsOptionalConfig",
+    "displayName": "Optional Configuration",
+    "groupStyle": "ZIPPY_CLOSED",
+    "subParams": [
+      {
+        "type": "CHECKBOX",
+        "name": "disableConsoleLogging",
+        "checkboxText": "Disable Console Logging",
+        "simpleValueType": true,
+        "help": "Turn on this option if you prefer not to log this information in the browser console."
+      }
+    ]
   }
 ]
 
@@ -378,6 +393,7 @@ const logToConsole = require('logToConsole');
 
 const FS = createArgumentsQueue('FS', 'FS.q');
 const tagType = data.fsTagType;
+const loggingEnabled = !data.disableConsoleLogging;
 
 if (tagType === 'fsEventTracking') {
   const eventName = makeString(data.fsEventName);
@@ -387,7 +403,7 @@ if (tagType === 'fsEventTracking') {
   }
   const eventProperties = getType(data.fsEventPropValue) === 'array' ? makeTableMap(data.fsEventPropValue, 'fsEventPropertyKey', 'fsEventPropertyValue') : {};
   FS('trackEvent', { name: eventName, properties: eventProperties });
-  logToConsole('FullStory Event Tracked:', { name: eventName, properties: eventProperties });
+  if (loggingEnabled) logToConsole('FullStory Event Tracked:', { name: eventName, properties: eventProperties });
   data.gtmOnSuccess();
 } else if (tagType === 'fsIdentify') {
   const userId = makeString(data.fsUserIdSource);
@@ -397,17 +413,17 @@ if (tagType === 'fsEventTracking') {
   }
   const userProperties = getType(data.fsUserIdCustomizer) === 'array' ? makeTableMap(data.fsUserIdCustomizer, 'fsIdentifierType', 'fsUserMetaDataValue') : {};
   FS('setIdentity', { uid: userId, properties: userProperties });
-  logToConsole('FullStory User Identified:', { uid: userId, properties: userProperties });
+  if (loggingEnabled) logToConsole('FullStory User Identified:', { uid: userId, properties: userProperties });
   data.gtmOnSuccess();
 } else if (tagType === 'fsSetPageProperties') {
   const pageProperties = getType(data.fsPagePropertyValue) === 'array' ? makeTableMap(data.fsPagePropertyValue, 'fsPagePropKey', 'fsPagePropValue') : {};
   FS('setProperties', { type: 'page', properties: pageProperties });
-  logToConsole('FullStory Page Properties Set:', { type: 'page', properties: pageProperties });
+  if (loggingEnabled) logToConsole('FullStory Page Properties Set:', { type: 'page', properties: pageProperties });
   data.gtmOnSuccess();
 } else if (tagType === 'fsSetUserProperties') {
   const userProperties = getType(data.fsUserPropertyValue) === 'array' ? makeTableMap(data.fsUserPropertyValue, 'fsSetUserPropKey', 'fsSetUserPropValue') : {};
   FS('setProperties', { type: 'user', properties: userProperties });
-  logToConsole('FullStory User Properties Set:', { type: 'user', properties: userProperties });
+  if (loggingEnabled) logToConsole('FullStory User Properties Set:', { type: 'user', properties: userProperties });
   data.gtmOnSuccess();
 } else {
   data.gtmOnFailure();
